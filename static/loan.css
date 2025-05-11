@@ -1,0 +1,108 @@
+body {
+    background-image: url('/static/loaan.png'); /* Background Image */
+    background-size: cover;
+    background-position: center;
+    color: white;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Main container */
+.container {
+    width: 50%;
+    background: rgba(0, 0, 0, 0.8); /* Dark semi-transparent background */
+    padding: 20px;
+    border-radius: 10px;
+    margin: 50px auto;
+    border: 10px solid black; /* Thick black border */
+}
+
+/* Form Layout */
+form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+/* Labels */
+label {
+    width: 45%;
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 18px; /* Slightly larger font */
+}
+
+/* Input Fields */
+input[type="text"],
+input[type="number"],
+select {
+    flex: 1 1 45%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 2px solid #444; /* Darker gray border */
+    background: #222; /* Dark gray input background */
+    color: white; /* White text for visibility */
+    transition: all 0.3s ease-in-out;
+    box-sizing: border-box;
+}
+
+/* Hover effect on inputs */
+input[type="text"]:hover,
+input[type="number"]:hover,
+select:hover {
+    background: #2d2d2d;
+    border-color: #e50914; /* Netflix red hover */
+    transform: scale(1.03);
+}
+
+/* Input focus effect */
+input:focus,
+select:focus {
+    background: #333; /* Slightly lighter dark gray */
+    border-color: #FFD700; /* Dark yellow highlight */
+    outline: none;
+    transform: scale(1.03);
+}
+
+/* Styling for dropdowns and radio buttons */
+select,
+input[type="radio"] {
+    background: #222; /* Dark gray background */
+    color: white; /* White text */
+    border: 2px solid #FFD700; /* Dark yellow border */
+    padding: 8px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+/* When dropdown or radio is clicked */
+select:focus,
+input[type="radio"]:checked {
+    background: white; /* White when selected */
+    color: black; /* Black text when selected */
+}
+
+/* Predict Button */
+button {
+    width: 100%;
+    padding: 12px;
+    background: #FFD700; /* Dark Yellow Button */
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 20px;
+    transition: 0.3s ease;
+}
+
+/* Hover effect */
+button:hover {
+    background: #d4af37; /* Slightly darker yellow */
+    transform: scale(1.05);
+}
