@@ -121,4 +121,5 @@ The trained models are deployed using **Flask** or **Streamlit**, allowing users
 
 ## How to run this
 - Genrate pkl model file by running both ipynb files.
+- Then run app.py, if any missing dependencies, please install them.
 
