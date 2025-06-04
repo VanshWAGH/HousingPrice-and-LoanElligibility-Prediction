@@ -120,4 +120,5 @@ The trained models are deployed using **Flask** or **Streamlit**, allowing users
 - [LightGBM Documentation](https://lightgbm.readthedocs.io/)
 
 ## How to run this
+- Genrate pkl model file by running both ipynb files.
 
